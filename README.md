@@ -13,7 +13,7 @@ A super simple playground generator for Yeoman
 ##Usage
 
 - Run the generator in current project folder using `yo simple-playground`
-- Enter the filename you want to 
+- Enter a filename
 
 ##Content
 
