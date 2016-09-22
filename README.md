@@ -18,14 +18,15 @@ A super simple playground generator for Yeoman
 ##Content
 
 You get a super simple HTML file where you can start to develop right from scratch.
-By default Bootstrap and jQuery is included.
+By default Bootstrap, FontAwesome and jQuery is included.
 
 ```HTML
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 	<style type="text/css">
 		body{
 			color:#333333;
@@ -36,11 +37,11 @@ By default Bootstrap and jQuery is included.
 	<div class="container">
 		<h1>Hello Playground</h1>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		console.log("Here we go again!");
 	</script>
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
 ```
