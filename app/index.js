@@ -1,27 +1,30 @@
-var generators = require('yeoman-generator');
+'use strict';
+var Generator = require('yeoman-generator');
 
-module.exports = generators.Base.extend({
-	constructor: function(){
+module.exports = class extends Generator{
+	constructor(args, opts) {
 		//Calling super constructor
-		generators.Base.apply(this, arguments);
-	},
-	promting: function(){
+		super(args, opts);
+	}
+	promting(){
 		var done = this.async();
 		this.projectVersion = "0.0.1";
 
-		var promts = [{
+		var prompts = [{
 			type    : 'input',
 			name    : 'sourceFilename',
 			message : 'Filename',
 			default : 'index.html'
 		}];
-
-		this.prompt(promts, function (answers) {
-			this.sourceFilename = answers.sourceFilename;
+		return this.prompt(prompts).then((answer)=>{
+			this.sourceFilename = answer.sourceFilename;
 			done();
-		}.bind(this));
-	},
-	writing: function () {
-		this.template('_index.html', this.sourceFilename, this);
+		});
 	}
-});
+	writing () {
+		this.fs.copyTpl(
+			this.templatePath('_index.html'),
+			this.destinationPath(this.sourceFilename)
+		);
+	}
+};
