@@ -19,7 +19,7 @@
   "scripts": {
   },
   "dependencies": {
-    "yeoman-generator": "^0.21.1"
+    "yeoman-generator": "^2.0.1"
   },
   "licenses": [
     {
