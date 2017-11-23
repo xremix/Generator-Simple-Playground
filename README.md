@@ -10,10 +10,18 @@ A super simple playground generator for Yeoman
 
 ![Sample Screenshot](https://raw.githubusercontent.com/xremix/Generator-Simple-Playground/master/Sample-Screenshot.png)
 
+### Install local
+
+To install the generator local (for development, etc.) do the following steps:
+
+- Clone `git clone https://github.com/xremix/Generator-Simple-Playground.git`
+- Change to folder `cd Generator-Simple-Playground`
+- Link NPM repository `npm link`
+
 ## Usage
 
 - Run the generator in current project folder using `yo simple-playground`
-- Enter a filename
+- Enter a filename for your HTML file
 
 ## Content
 
