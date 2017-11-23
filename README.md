@@ -1,7 +1,7 @@
-#Simple Playground
+# Simple Playground
 A super simple playground generator for Yeoman
 
-##Installation
+## Installation
 
 
 - Install [node.js](https://nodejs.org/en/)
@@ -10,12 +10,12 @@ A super simple playground generator for Yeoman
 
 ![Sample Screenshot](https://raw.githubusercontent.com/xremix/Generator-Simple-Playground/master/Sample-Screenshot.png)
 
-##Usage
+## Usage
 
 - Run the generator in current project folder using `yo simple-playground`
 - Enter a filename
 
-##Content
+## Content
 
 You get a super simple HTML file where you can start to develop right from scratch.
 By default Bootstrap, FontAwesome and jQuery is included.
