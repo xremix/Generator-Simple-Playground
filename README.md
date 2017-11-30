@@ -1,6 +1,10 @@
 # Simple Playground
 A super simple playground generator for Yeoman
 
+## Motivation
+This supports me when I want to sketch out some code or try something new on a project. 
+Before developing this playground generator I always used snippets to generate some boilerplate HTML code, but always had to include jQuery, Bootstrap or similar frameworks. This allows to simply generate a HTML file including all these libraries within seconds.
+
 ## Installation
 
 
