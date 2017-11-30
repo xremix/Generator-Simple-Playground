@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-playground",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A super simple playground generator for Yeoman",
   "keywords": [
     "yeoman-generator"
@@ -16,8 +16,7 @@
     "type": "git",
     "url": "git://github.com/xremix/generator-simple-playground.git"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "yeoman-generator": "^2.0.1"
   },
