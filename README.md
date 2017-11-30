@@ -1,5 +1,7 @@
 # Simple Playground
 A super simple playground generator for Yeoman
+[![npm version](https://badge.fury.io/js/generator-simple-playground.svg)](https://badge.fury.io/js/generator-simple-playground)
+
 
 ## Motivation
 This supports me when I want to sketch out some code or try something new on a project. 
