@@ -57,8 +57,3 @@ By default Bootstrap, FontAwesome and jQuery is included.
 ```
 
 You can also take a look at the demo file [here](https://github.com/xremix/Generator-Simple-Playground/blob/master/Demo-File.html)
-
-## Deployment
-
-- Create release on git
-- Deploy to NPM `npm publish`
